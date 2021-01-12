@@ -5,6 +5,12 @@
     font-family: Helvetica, sans-serif;
     box-sizing: border-box;
 }
+body{
+    margin: 0;
+    padding: 0;
+    background: #eceef1;
+
+}
 a{
     color: #0077C5;
 }
@@ -21,10 +27,9 @@ li{
     list-style: none;
     float: left;
 }
-body{
-    margin: 0;
-    padding: 0;
-    background: #eceef1;
+input:focus{
+    border:1px solid #52A8EC;
+    box-shadow: 0 1px 1px #FFF inset, 0 0 8px #52A8EC;
 
 }
 
