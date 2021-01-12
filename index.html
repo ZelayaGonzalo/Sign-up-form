@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <script
+      src="https://kit.fontawesome.com/56fb5274b4.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>Sign Up Form</title>
+  </head>
+  <body>
+    <section>
+      <div class="navWraper">
+        <div class="navContainer">
+          <div class="textColumn">
+            <div>Already have an account?</div>
+            <a href="#">I forgot my userID or password</a>
+          </div>
+          <div class="buttonColumn">
+            <button>
+              <span class="lock"></span>
+              Sign in
+            </button>
+          </div>
+        </div>
+      </div>
+      <header>
+        <img class="intuitLogo" src="./imgs/intuit.png" alt="Intuit logo" />
+      </header>
+      <section class="mainContainer">
+        <header class="icons">
+              <ul class="logoList">
+                  <li class="logo">
+                    <span class="miniLogo mintLogo"></span>
+                    <a class="mintText"></a>
+                  </li>
+                  <li class="logo">
+                    <span class="miniLogo quickBookLogo"></span>
+                    <a class="quickBookText"></a>
+                  </li>
+                  <li class="logo">
+                    <span class="miniLogo turboLogo"></span>
+                    <a class="turboText"></a>
+                  </li>
+              </ul>
+        </header>
+        <div class="formWrapper">
+            <header class="formHeader">
+                <span class="titleHeader">Create an Intuit account</span>
+                <span class="subHeader">
+                    <div>
+                        One account for everything Intuit, including Mint.
+                        <a>Learn More</a>
+                    </div>
+                 </span>
+            </header>
+            <form>
+                <fieldset id="fieldsetEmail">
+                    <label for="emailInput" id="email-label" class="formLabel">Email Adress</label>
+                    <div class="inputContainer">
+                        <input type="text" id="emailInput" name="emailInput" class="formTextInput">
+                    </div>
+                </fieldset>
+                <span class="errorEmail" for="emailInput" role="alert"></span>
+                <fieldset id="fieldsetPhone">
+                  <label for="phoneInput" id="phone-label" class="formLabel">Phone (recommended)</label>
+                  <div class="inputContainer">
+                      <input type="number" name="phoneInput" class="formTextInput">
+                  </div>
+                  <span id="smsWarning">Standard call, messaging or data rates may apply</span>
+              </fieldset>
+              <fieldset id="fieldsetPassword">
+                <label for="passwordInput" id="password-label" class="formLabel">Password</label>
+                <div class="inputContainer">
+                    <input type="text" id="passwordInput" name="passwordInput" class="formTextInput">
+                </div>
+            </fieldset>
+            <div id="signupButton">
+              <button id="submitButton">
+                <span id="submitImage"></span>
+                <span id="submitText">Create account</span>
+              </button>
+            </div>
+            </form>
+            <footer class="footerContainer">
+              <div class="termsOfUse">
+                <span>By clicking Create account,you agree to our</span>
+                <br>
+                <a>Terms</a>
+                <span>and have read and acknowledge our</span>
+                <a>Global Privacy Statement.</a>
+              </div>
+            </footer>
+            <section class="captchaContainer">
+              <span class="captchaText">Invisible reCAPTCHA by Google</span>
+              <a>Privacy Policy</a>
+              <span class="captchaText">and</span>
+              <a>Terms of Use</a>
+            </section>
+        </div>
+      </section>
+    </section>
+  </body>
+</html>

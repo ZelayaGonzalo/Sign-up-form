@@ -1,0 +1,322 @@
+*{
+    font-size: 12px;
+    line-height: 1.5;
+    text-align: left;
+    font-family: Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+a{
+    color: #0077C5;
+}
+fieldset{
+    border: none;
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+input{
+    border: 1px solid #C1C5C8;
+}
+li{
+    list-style: none;
+    float: left;
+}
+body{
+    margin: 0;
+    padding: 0;
+    background: #eceef1;
+
+}
+
+/*Nav Login*/
+.navWraper{
+    margin: 0;
+    height: 60px;
+    background: #eceef1;
+    box-sizing: border-box;
+    padding: 10px 30px 10px 30px;
+
+}
+.navWraper .navContainer{
+    font-weight: normal;
+    color: #505050;
+    float: right;
+}
+.navContainer .textColumn{
+    float: left;
+    margin-left: 10px;
+    text-align: right;
+}
+.textColumn a{
+    color: #0077C5;
+}
+
+.navContainer .buttonColumn{
+  
+    float: left;
+    margin-left: 10px;
+    text-align: right;
+}
+.buttonColumn button{
+    color: white;
+    cursor: pointer;
+    padding: 0 20px;
+    font-size: 1.125em;
+    background: #0077C5;
+    border: 1px solid #4c4c4c;
+    border-radius: 4px;
+    height: 34px;
+}
+.buttonColumn .lock{
+    height: 20px;
+    width: 16px;
+    margin-top: 0;
+    margin-right: 6px;
+    vertical-align: text-top;
+    display: inline-block;
+    background-image: url("./imgs/lock.svg");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+/*Header intuit Logo*/
+
+header{
+    padding-bottom: 20px;
+    width: 100%;
+}
+header .intuitLogo{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/*Main body icons*/
+.mainContainer .icons{
+    padding-bottom: 4px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+.logoList{
+    height: 23px;
+    width: 380px;
+    overflow: hidden;
+}
+.logo{
+    margin-left: 4px;
+    cursor: pointer;
+}
+.logo .miniLogo{
+    width: 23px;
+    height: 23px;
+    display: inline-block;
+    margin-right: 4px;
+    position: relative;
+}
+.mintLogo{
+    background-image: url("./imgs/mintLogo.svg");
+   
+}
+.mintText{
+    display: inline-block;
+    background-image: url("./imgs/mintText.svg");
+    background-repeat: no-repeat;
+    width: 37px;
+    height: 20px;
+}
+.quickBookLogo{
+    background-image: url("./imgs/qb.svg");
+}
+.quickBookText{
+    display: inline-block;
+    background-image: url("./imgs/quickbooksText.svg");
+    background-repeat: no-repeat;
+    width: 98px;
+    height: 22px;
+}
+.turboLogo{
+    background-image: url("./imgs/check.svg");
+}
+.turboText{
+    display: inline-block;
+    background-image: url("./imgs/turbotaxText.svg");
+    background-repeat: no-repeat;
+    width: 98px;
+    height: 22px;
+}
+
+/*Form*/
+
+.formWrapper{
+    font-size: 14px;
+    width: 380px;
+    box-sizing: border-box;
+    margin: auto;
+    overflow: visible;
+    padding: 30px;
+    background-color: #fff;
+    border: 1px solid #c7c7c7;
+}
+.formHeader{
+    text-align: center;
+    padding-bottom: 20px;
+}
+.formHeader .titleHeader{
+    color: #393A3D;
+    font-weight: 400;
+    line-height: 1.1;
+    font-size: 24px;    
+}
+.formHeader .subHeader{
+    text-align: center;
+    display: block;
+    padding-top: 20px;
+   
+}
+.subHeader div{
+    text-align: center;
+    font-size: 1.4em;
+    font-weight: 300;
+    line-height: 1.2;
+    color: #393A3D;
+    font-size: 14px;
+}
+.subHeader div a{
+    color: #0077C5;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+
+/*Form Main Body*/
+.errorMail{
+    display: block;
+    min-height: 20px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    line-height: 1.2em;
+    font-size: 12px;
+    color: #eb3432;
+    word-wrap: break-word;
+}
+.formLabel{
+    font-weight: normal;
+    color: #404040;
+    font-size: 14px;
+    line-height: 25px;
+    display: block;
+    padding-bottom: 6px;
+}
+.inputContainer{
+    width: 320px;
+    min-width: 160px;
+    height: 34px;
+    position: relative;
+}
+.formTextInput{
+    margin: 0;
+    height: 34px;
+    width: 320px;
+    min-width: 160px;
+    padding-left: 8px;
+    padding-right: 6px;
+    border: 1px solid #d8d8d8;
+    color: #000000;
+    outline: none;
+    font-size: 1.2em;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+    line-height: 1.3em;
+}
+
+#fieldsetEmail{
+    margin-bottom: 20px;
+}
+#fieldsetPhone{
+    min-height: 115px;
+}
+#fieldsetPassword{
+    margin-bottom: 25px;
+}
+#smsWarning{
+    padding: 5px 0;
+    font-size: 10px;
+    color: #444;
+    display: block;
+min-height: 20px;
+}
+
+/*Sign up Button*/
+#signupButton{
+    padding-bottom: 10px;
+}
+#submitButton{
+    text-transform: capitalize;
+    background: #0077C5;
+    border-color: #0077C5;
+    border: none;
+    border-radius: 4px;
+    width: 100%;
+    min-width: 100px;
+    height: 44px; 
+    text-align: center;
+    box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.75);
+    padding: 6px 12px;
+    margin-bottom: 0;
+    line-height: 1.428571429;
+    text-align: center;
+    white-space: nowrap;
+    cursor: pointer;
+    user-select: none;
+    -webkit-appearance: button;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+#submitImage{
+    height: 20px;
+    width: 16px;
+    margin-top: 0;
+    margin-right: 6px;
+    vertical-align: text-top;
+    display: inline-block;
+    background-image: url("./imgs/lock.svg");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+#submitText{
+    text-shadow: none;
+    font-weight: normal;
+    color: #FFF;
+    font-size: 14px;
+}
+
+/*Footer of Form*/
+.footerContainer{
+    text-align: center;
+}
+.footerContainer .termsOfUse{
+    font-style: italic;
+    color: #757575;
+    text-align: center;
+}
+.termsOfUse a{
+    color: #0077C5;
+    cursor: pointer;
+}
+
+/*Captcha Container*/
+.captchaContainer{
+    background-color: #ECEEF1;
+    margin: 32px -30px -30px -30px;
+    padding: 16px;
+    text-align: center;
+    display: block;
+}
+#captchaText{
+    font-size: 10px;
+    color: #8d9096;
+}
